@@ -1,0 +1,99 @@
+body {
+    background-color: #fff;
+}
+body > #vue-app, body > #vue-error {
+    background-color: unset;
+}
+#page-body .container-max{
+    background-color: #fff;
+    box-shadow: -5px 0 5px -5px #c2c2c2, 5px 0 5px -5px #c2c2c2;
+}
+#page-body .container-max.login{
+    padding-top: 20px;
+}
+#page-body .container-max.checkout{
+    padding-top: 30px !important;
+}
+.wrapper-main #page-body {
+    margin-top: 83px;
+}
+.wrapper-main .navbar{
+    background: #fff;
+}
+
+a{
+    color: #ff9428;
+}
+a:focus, a:hover{
+    color: #303030;
+}
+.btn-primary{
+    background-color: #ff9428;
+    border-color: #ff9428;
+}
+.btn-primary:hover,
+.btn-primary:focus, .btn-primary.focus,
+.btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle,
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .btn-primary.dropdown-toggle:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .btn-primary.dropdown-toggle:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .btn-primary.dropdown-toggle.focus {
+    background-color: #303030;
+    border-color: #303030;
+}
+.btn-outline-primary {
+    color: #ff9428 !important;
+    background-image: none;
+    background-color: transparent;
+    border-color: #ff9428;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:focus, .btn-outline-primary.focus,
+.btn-outline-primary:active, .btn-outline-primary.active, .open > .btn-outline-primary.dropdown-toggle,
+.btn-outline-primary:active:hover, .btn-outline-primary.active:hover, .open > .btn-outline-primary.dropdown-toggle:hover, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .open > .btn-outline-primary.dropdown-toggle:focus, .btn-outline-primary:active.focus, .btn-outline-primary.active.focus, .open > .btn-outline-primary.dropdown-toggle.focus {
+    color: #fff !important;
+    background-color: #ff9428;
+}
+
+.notification-wrapper{
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 0;
+    width: 100%;
+}
+.notification-wrapper .alert{
+    margin-bottom: 0;
+}
+
+.footer-content > div:not(.copyright){
+    display: none;
+}
+.footer-content .copyright {
+    padding-top: 2rem;
+}
+
+.amzLoginButton,
+#ppButton{
+    width: 50%;
+    float: left;
+}
+.amzLoginButton{
+    padding-right: 15px;
+    text-align: right;
+}
+#ppButton{
+    margin-top: -6px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+@media (max-width: 1199px) {
+    .meta-container-wrapper-inner{
+        display: block !important;
+    }
+    .basket-item-container .basket-item .basket-item-container-right .qty-box-container{
+        margin-left: 0;
+    }
+    .basket-item-container-right{
+        margin-top: 10px;
+    }
+}
